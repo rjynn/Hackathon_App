@@ -11,6 +11,7 @@ This static endpoint is defaulted to "edmonton", with 4 other possible query inp
 "vancouver", "montreal", "calgary", and "toronto".
 */
 
-export const CITY_WEATHER_URL = 'https://sjtz41wo3m.execute-api.us-east-1.amazonaws.com/weather/?city=';
 
-export const CITY_FORECAST_URL = 'https://9q8kp49olb.execute-api.us-east-1.amazonaws.com/forecast/?city=';
+export const USER_TOKEN = 'BQCMFsTZaMMmrlTj1YSXTRR7en8sqehOLr_xxMP03rXnpFuDschUwnNikx-xQfSZLjWNKy380NhbefdqZ5U';
+
+export const URL_GET_ALBUM = 'https://api.spotify.com/v1/audio-analysis/06AKEBrKUckW0KREUWRnvT'
