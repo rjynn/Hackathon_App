@@ -4,17 +4,13 @@ import { getAlbum } from './utils/network';
 import './App.css';
 
 class App extends Component {
-  state = {
-    artists: '',
-    label: '',
-    name: '',
-    images:[],
   };
 
 
   showAlbumInfo() {
     getAlbum().then((response) => {
-      console.log(response.data);
+      console.log(response.data); //this is printing in the console the response of the api
+      // do something with the response.data here
     });
   }
 
