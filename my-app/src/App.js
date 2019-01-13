@@ -4,13 +4,11 @@ import { getAlbum } from './utils/network';
 import './App.css';
 
 class App extends Component {
-  };
-
 
   showAlbumInfo() {
     getAlbum().then((response) => {
-      console.log(response.data); //this is printing in the console the response of the api
-      // do something with the response.data here
+      console.log(response.data);
+      //do something here
     });
   }
 
